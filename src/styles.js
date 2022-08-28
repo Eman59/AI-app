@@ -28,10 +28,10 @@ export default makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     width: '50%',
-    padding: '3%',
+    padding: '1%',
     borderRadius: 10,
     color: 'white',
-    backgroundColor: 'rgba(21, 101, 192)',
+    background: 'linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%)',
     margin: '0 12px',
     textAlign: 'center',
     height: '25vmin',
@@ -54,7 +54,7 @@ export default makeStyles((theme) => ({
     },
   },
   logoContainer: {
-    padding: '0 5%',
+    padding: '0 15%',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -65,9 +65,8 @@ export default makeStyles((theme) => ({
     },
   },
   alanLogo: {
-    height: '27vmin',
-    borderRadius: '15%',
-    padding: '0 5%',
+    height: '35vmin',
+    borderRadius: '3%',
     margin: '3% 0',
     [theme.breakpoints.down('sm')]: {
       height: '35vmin',
